@@ -1,3 +1,9 @@
-{
-  message: "#{@message}",
-}
+if @first_name[0] == "A"
+  return "Hey, your name starts with the first letter of the alphabet!"
+else
+  return "#{@first_name}"
+end
+
+# end
+# return "#{@first_name}"
+# return “Hey, your name starts with the first letter of the alphabet!”
